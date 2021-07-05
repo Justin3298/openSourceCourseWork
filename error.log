@@ -1,0 +1,713 @@
+[Wed Jun 30 2021 15:24:33 GMT+0800 (中国标准时间)]/u/useraaa
+TypeError: User.get is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:298:9
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:410:3)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:275:10)
+[Wed Jun 30 2021 15:34:15 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:16 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 15:34:30 GMT+0800 (中国标准时间)]/login
+TypeError: User.get is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:210:7
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:335:12)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:275:10)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:127:14)
+    at checkNotLogin (d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:121:2)
+[Wed Jun 30 2021 15:39:23 GMT+0800 (中国标准时间)]/login
+TypeError: User.get is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:210:7
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:335:12)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:275:10)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:127:14)
+    at checkNotLogin (d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:121:2)
+[Wed Jun 30 2021 15:45:26 GMT+0800 (中国标准时间)]/login
+TypeError: User.get is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:210:7
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:335:12)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:275:10)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:127:14)
+    at checkNotLogin (d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:121:2)
+[Wed Jun 30 2021 15:53:11 GMT+0800 (中国标准时间)]/login
+TypeError: User.get is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:210:7
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:335:12)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:275:10)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:127:14)
+    at checkNotLogin (d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:121:2)
+[Wed Jun 30 2021 16:00:30 GMT+0800 (中国标准时间)]/remove/userccc/2021-6-30/%E6%B5%8B%E8%AF%95
+ReferenceError: confirm is not defined
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:422:5
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Wed Jun 30 2021 16:02:48 GMT+0800 (中国标准时间)]/remove/userccc/2021-6-30/%E6%B5%8B%E8%AF%95
+ReferenceError: window is not defined
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:422:5
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Wed Jun 30 2021 16:05:41 GMT+0800 (中国标准时间)]/remove/userccc/2021-6-30/%E6%B5%8B%E8%AF%95
+TypeError: global.confirm is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:422:26
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Wed Jun 30 2021 16:10:10 GMT+0800 (中国标准时间)]/remove/userccc/2021-6-30/%E6%B5%8B%E8%AF%95
+TypeError: global.confirm is not a function
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:422:26
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Wed Jun 30 2021 16:22:43 GMT+0800 (中国标准时间)]/reg
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Wed Jun 30 2021 19:14:01 GMT+0800 (中国标准时间)]/u/userccc/2021-6-30/%E6%B5%8B%E8%AF%95
+Error: Failed to lookup view "article" in views directory "d:\idmDownload\Compressed\11264661\blogManageSys\views"
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:385:26
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\post.js:121:20
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:704:5
+    at handleCallback (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:109:55)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\cursor.js:840:66
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:704:5
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\cursor.js:925:9
+    at Cursor._endSession (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\core\cursor.js:397:7)
+[Wed Jun 30 2021 21:43:07 GMT+0800 (中国标准时间)]/search?keyword=%E6%B5%8B%E8%AF%95
+Error: Failed to lookup view "search" in views directory "d:\idmDownload\Compressed\11264661\blogManageSys\views"
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:545:14
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\post.js:298:20
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:704:5
+    at handleCallback (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:109:55)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\cursor.js:840:66
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\utils.js:704:5
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\cursor.js:925:9
+    at Cursor._endSession (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb\lib\core\cursor.js:397:7)
+[Thu Jul 01 2021 00:42:33 GMT+0800 (中国标准时间)]/u/useraaa/2021-6-30/%E6%B8%B8%E8%AE%B0
+TypeError: Comment is not a constructor
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:399:21
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Thu Jul 01 2021 00:51:36 GMT+0800 (中国标准时间)]/u/useraaa/2021-6-30/%E6%B8%B8%E8%AE%B0
+TypeError: Comment is not a constructor
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:399:21
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Thu Jul 01 2021 00:53:40 GMT+0800 (中国标准时间)]/u/useraaa/2021-6-30/%E6%B8%B8%E8%AE%B0
+TypeError: Comment is not a constructor
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:399:21
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Thu Jul 01 2021 00:55:40 GMT+0800 (中国标准时间)]/u/useraaa/2021-6-30/%E6%B8%B8%E8%AE%B0
+TypeError: Comment is not a constructor
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:399:21
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\layer.js:95:5)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:281:22
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:354:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+    at param (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\router\index.js:365:14)
+[Sat Jul 03 2021 14:22:22 GMT+0800 (中国标准时间)]/login
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:170:12)
+    at done (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:257:5)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+[Sat Jul 03 2021 15:17:43 GMT+0800 (中国标准时间)]/u/useraaa/2021-7-3/%E6%B5%8B%E8%AF%95
+ReferenceError: d:\idmDownload\Compressed\11264661\blogManageSys\views\postManage.ejs:28
+    26| </p>
+    27| <p class="info">
+ >> 28|      作者：<a href="/u/<%= postAuthorName %>">   <%= postAuthorName %>   </a>
+    29|      日期：<%= post.time.minute %>  
+    30|     <% if (post.reprint_info.reprint_from) {%>
+    31|       <br>
+
+postAuthorName is not defined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:133:26)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:382:26
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\post.js:121:20
+[Sat Jul 03 2021 20:16:45 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:580:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:112:15
+[Sat Jul 03 2021 20:24:34 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:580:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:111:13
+[Sat Jul 03 2021 20:57:12 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+posts.forEach is not a function
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:580:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:102:13
+[Sat Jul 03 2021 20:58:35 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+posts.forEach is not a function
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:580:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:113:15
+[Sat Jul 03 2021 21:33:15 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <!-- <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:592:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:113:15
+[Sat Jul 03 2021 21:33:42 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+TypeError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| <!-- <% var lastYear = 0 %>
+ >> 6| <% posts.forEach(function(post,index){%>
+    7| <%   if (lastYear != post.time.year) {%>
+    8|    <li><h3>   <%= post.time.year %>   </h3></li>
+    9| <%     lastYear = post.time.year } %>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:60:14)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:592:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:113:15
+[Sat Jul 03 2021 21:34:05 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+ReferenceError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| 
+ >> 6| <p><%= post %></p>
+    7| </ul>
+    8| 
+    9| <%- include footer %>
+
+post is not defined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:57:26)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:592:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:113:15
+[Sat Jul 03 2021 21:36:34 GMT+0800 (中国标准时间)]/searchPostByCommentUserName?keyword2=useraaa
+ReferenceError: d:\idmDownload\Compressed\11264661\blogManageSys\views\searchPostByCommentUserName.ejs:6
+    4| <ul class="archive">
+    5| 
+ >> 6| <p><%= post[0].posts %></p>
+    7| </ul>
+    8| 
+    9| <%- include footer %>
+
+post is not defined
+    at eval (eval at compile (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:592:12), <anonymous>:57:26)
+    at returnedFn (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:623:17)
+    at tryHandleCache (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:251:36)
+    at View.exports.renderFile [as engine] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\ejs\lib\ejs.js:480:10)
+    at View.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\view.js:135:8)
+    at tryRender (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:640:10)
+    at Function.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\express\lib\response.js:1012:7)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\routes\index.js:592:7
+    at d:\idmDownload\Compressed\11264661\blogManageSys\models\comment.js:113:15
+[Tue Jul 06 2021 00:47:37 GMT+0800 (中国标准时间)]/
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:48:17 GMT+0800 (中国标准时间)]/logout
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:48:17 GMT+0800 (中国标准时间)]/favicon.ico
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:49:39 GMT+0800 (中国标准时间)]/logout
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:49:40 GMT+0800 (中国标准时间)]/favicon.ico
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:49:42 GMT+0800 (中国标准时间)]/
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40
+[Tue Jul 06 2021 00:49:42 GMT+0800 (中国标准时间)]/favicon.ico
+MongoError: Topology was destroyed
+    at nextFunction (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:547:27)
+    at Cursor.next [as _next] (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\mongodb-core\lib\cursor.js:701:3)
+    at nextObject (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:680:8)
+    at Cursor.next (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\cursor.js:270:12)
+    at findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1414:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1404:5
+    at new Promise (<anonymous>)
+    at Collection.findOne (d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\node_modules\mongodb\lib\collection.js:1403:10)
+    at d:\idmDownload\Compressed\11264661\blogManageSys\node_modules\connect-mongo\src\index.js:193:40

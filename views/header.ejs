@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>我的博客管理系统</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+       <h1><%= title %></h1>
+    </header>
+    <span>
+       <form action="/searchByTitle" method="GET">
+         <input type="text" name="keyword" placeholder="输入文章标题进行正则搜索" class="search" />
+       </form>
+       <br/>
+      <form action="/searchPostByCommentUserName" method="GET">
+        <input type="text" name="keyword2" placeholder="输入评论者的名称进行搜索" class="search" />
+      </form>
+    </span>
+    <nav>
+        <span><h3>博客管理系统</h3></span>
+        <br/>
+        <span><a title="主页"  href="/">home</a></span>
+        <span><a title="档案"  href="/archive">archive</a></span>
+        <span><a title="标签列表"  href="/tags">tags</a></span>
+        <span><a title="学习链接"  href="/links">links</a></span>
+        <% if(user&&user.isAdmin==1) { %>
+          <span><a title="上传"  href="/upload">upload</a></span>
+          <span><a title="发表"  href="/CreatePost">post</a></span>
+          <span><a title="登出"  href="/logout">logout</a></span>
+
+        <% }else if(user&&user.isAdmin==0){ %>
+          <span><a title="发表" href="/CreatePost">post</a></span>
+          <span><a title="登出" href="/logout">logout</a></span>
+
+        <% } else { %>
+          <span><a title="登录"  href="/login">login</a></span>
+          <span><a title="注册"  href="/reg">register</a></span>
+        <% } %>
+    </nav>
+
+    <article>
+    
+        <% if(success) { %>
+          <div><%= success %></div>
+        <% } %>
+
+        <% if(error) { %>
+          <div><%= error %></div>
+        <% } %>
+
+

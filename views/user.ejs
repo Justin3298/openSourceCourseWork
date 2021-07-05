@@ -1,0 +1,20 @@
+<%- include header %>
+<% posts.forEach(function(post,index){%>
+<p>
+  <h2><a href="/u/<%= post.postAuthorName %>/<%= post.time.day %>/<%= post.postTitle %>">   <%= post.postTitle %> </a></h2>
+  <a href="/u/<%= post.postAuthorName %>">  <img src="<%= post.head %>" class="r_head" /></a>
+</p>
+<p class="info">
+     作者：<a href="/u/<%= post.postAuthorName %>">   <%= post.postAuthorName %>   </a>
+     日期：<%= post.time.minute %>  
+    <% if (post.reprint_info.reprint_from) {%>
+      <br>
+      <a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">
+      原文链接</a>
+    <% } %>
+</p>
+<p>  <%- post.postContent %>   </p>
+<% }) %>
+
+<%- include paging %>
+<%- include footer %>

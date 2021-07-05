@@ -1,0 +1,39 @@
+<%- include header %>
+<p>
+  <% if (user && (user.name == post.postAuthorName)) {%>
+        <span><a class="edit"  href="/editPost/<%= user.name %>/<%= post.time.day %>/<%= post.postTitle %>">编辑</a></span>
+        <span><a class="remove"  href="/removePost/<%= user.name %>/<%= post.time.day %>/<%= post.postTitle %>">删除</a></span>
+  <%}%>    
+
+  <% var flag = 1 %>
+  <% if (user && (user.name != post.postAuthorName)) {%>
+    <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.postAuthorName)) {%>
+      <% flag = 0 %>
+    <% } %>
+    <% if (post.reprint_info.reprint_to != undefined) {%>
+     <% post.reprint_info.reprint_to.forEach(function(reprint_to,index){%>
+       <% if (user.name == reprint_to.postAuthorName) {%>
+        <% flag = 0 %>
+       <% } %>
+     <%}) %>
+    <% } %>
+  <% }else{%>
+    <% flag = 0 %>
+  <% } %>
+  <% if(flag){ %>
+      <span><a class="edit"  href="/reprint/<%= post.postAuthorName %>/<%= post.time.day %>/<%= post.postTitle %>">转载</a></span>
+  <%}%>    
+</p>
+<p class="info">
+     作者：<a href="/u/<%= post.postAuthorName %>">   <%= post.postAuthorName %>   </a>
+     日期：<%= post.time.minute %>  
+    <% if (post.reprint_info.reprint_from) {%>
+      <br>
+      <a href="/u/<%= post.reprint_info.reprint_from.postAuthorName %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.postTitle %>">
+      原文链接</a>
+    <% } %>
+</p>
+<p>  <%- post.postContent %>   </p>
+
+<%- include comment %>
+<%- include footer %>
